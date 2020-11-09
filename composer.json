@@ -1,0 +1,16 @@
+{
+    "name": "yakimov/brain-games",
+    "description": "Brain-games project",
+    "type": "project",
+    "license": "mit",
+    "bin": [
+        "bin/brain-games"
+    ],
+    "authors": [
+        {
+            "name": "Vladimir Yakimov",
+            "email": "yakimov.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
