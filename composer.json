@@ -4,7 +4,7 @@
     "type": "project",
     "license": "mit",
     "bin": [
-        "bin/brain-games"
+        "bin/brain-games.php"
     ],
     "authors": [
         {
@@ -12,5 +12,12 @@
             "email": "yakimov.dev@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/cli.php"
+        ]
+    }
 }
