@@ -15,9 +15,15 @@
     "require": {
         "wp-cli/php-cli-tools": "*"
     },
+    "scripts": {
+        "phpcs": "vendor/bin/phpcs"
+    },
     "autoload": {
         "files": [
             "src/cli.php"
         ]
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
     }
 }
