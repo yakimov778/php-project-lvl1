@@ -4,7 +4,8 @@
     "type": "project",
     "license": "mit",
     "bin": [
-        "bin/brain-games.php"
+        "bin/brain-games.php",
+        "bin/brain-even"
     ],
     "authors": [
         {
@@ -20,7 +21,8 @@
     },
     "autoload": {
         "files": [
-            "src/cli.php"
+            "src/cli.php",
+            "src/games/even.php"
         ]
     },
     "require-dev": {
