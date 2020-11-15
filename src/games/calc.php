@@ -32,7 +32,6 @@ function runCalc()
         $num2 = mt_rand(1, MAX_RANDOM_VALUE);
         $question = "$num1 $operation $num2";
         $currentAnswer = strval(calculate($num1, $num2, $operation));
-        
         $gameData = [];
         $gameData['currentAnswer'] = $currentAnswer;
         $gameData['question'] = $question;
