@@ -17,7 +17,7 @@ function runEven()
     $getEvenData = function () {
         $question = strval(mt_rand(1, MAX_RANDOM_VALUE));
         $currentAnswer = isEven($question) ? "yes" : "no";
-        
+
         $gameData = [];
         $gameData['question'] = $question;
         $gameData['currentAnswer'] = $currentAnswer;
