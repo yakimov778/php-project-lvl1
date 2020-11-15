@@ -28,5 +28,4 @@ function run($getGameData, $description)
         $gameData = $getGameData();
     }
     line("Congratulations, %s", $name);
-
-}//end run()
+}
