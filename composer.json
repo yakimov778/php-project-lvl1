@@ -5,7 +5,8 @@
     "license": "mit",
     "bin": [
         "bin/brain-games.php",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "authors": [
         {
