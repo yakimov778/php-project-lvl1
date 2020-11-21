@@ -29,12 +29,10 @@ function runProgression()
 
         $currentAnswer = strval($progression[$hiddenElementIndex]);
         $question = implode(' ', $progressionWithHideElement);
-        
         $gameData = [];
         $gameData['currentAnswer'] = $currentAnswer;
         $gameData['question'] = $question;
         return $gameData;
     };
-    
     run($getProgressionData, DESCRIPTION);
 }
