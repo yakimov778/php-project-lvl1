@@ -19,7 +19,6 @@ function runGcd()
         $num2 = mt_rand(1, MAX_RANDOM_VALUE);
         $currentAnswer = strval(getGcd($num1, $num2));
         $question = "$num1 $num2";
-        
         $gameData = [];
         $gameData['currentAnswer'] = $currentAnswer;
         $gameData['question'] = $question;
